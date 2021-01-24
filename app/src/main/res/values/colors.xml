@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="material1">#80DEEA</color>
+    <color name="material2">#90CAF9</color>
+    <color name="material3">#9FA8DA</color>
+    <color name="material4">#C5CAE9</color>
+    <color name="material5">#c8e8ff</color>
+    <color name="material6">#BBDEFB</color>
+    <color name="material7">#F8BBD0</color>
+    <color name="material8">#FFCDD2</color>
+    <color name="material9">#B2DFDB</color>
+    <color name="material10">#C8E6C9</color>
+    <color name="colorPrimary">#005A81</color>
+    <color name="colorPrimaryDark">#013454</color>
+<!--    <color name="colorAccent">#c8e8ff</color>-->
+        <color name="colorAccent">#03DAC5</color>
+    <color name="colorCancel">#aaaaaa</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="screen_1">#5D5E5F</color>
+
+</resources>
+

@@ -1,0 +1,88 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+
+    </style>
+
+    <style name="NoActionBarTransparent" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+
+        <item name="titleTextColor">#fff</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBarAppcompat" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="titleTextColor">#fff</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <style name="NoActionBarMaterial" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="titleTextColor">#fff</item>
+        <item name="homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.Title.Light">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <!--Buttons-->
+    <style name="Button">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Button.Outline">
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:foreground">?selectableItemBackgroundBorderless</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Text.Light">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TabTextDesign" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

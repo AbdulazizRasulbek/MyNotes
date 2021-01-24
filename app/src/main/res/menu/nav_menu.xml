@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/screens">
+        <item
+            android:id="@+id/mainLayout"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/allNotesLayout"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="All Notes" />
+        <item
+            android:id="@+id/basketLayout"
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="Trash" />
+        <item
+            android:id="@+id/historyLayout"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="History" />
+
+    </group>
+
+    <group android:id="@+id/settings">
+        <item
+            android:id="@+id/shareNavMenu"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share" />
+    </group>
+    <group android:id="@+id/aboutPart">
+        <item
+            android:id="@+id/termsLayout"
+            android:icon="@drawable/ic_accept"
+            android:title="Terms and conditions" />
+        <item
+            android:id="@+id/aboutLayout"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="How to use" />
+
+    </group>
+</menu>
