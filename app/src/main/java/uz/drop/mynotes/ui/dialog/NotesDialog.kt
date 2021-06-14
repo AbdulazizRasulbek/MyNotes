@@ -150,8 +150,8 @@ class NotesDialog(context: Context, actionName: String, fragmentManager: Fragmen
         dateEt.setText(if (clearDate) "" else data.deadline.toDatetime("dd.MM.yyyy hh:mm"))
         titleEt.setText(data.title)
         val list = data.hashTags.toTagList()
-        list.forEach {
-            addChipToGroup(it, chipGroup, list.toMutableList())
+        list.forEach { item ->
+            addChipToGroup(item, chipGroup, list.toMutableList())
         }
         descriptionEt.setText(data.description)
 
